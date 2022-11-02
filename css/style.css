@@ -1,0 +1,214 @@
+.desktop-header ul
+{
+   display:flex;
+   list-style-type:none;
+   padding:0;
+}
+
+/* om de laatste li geen padding te geven */
+.desktop-header li:not(:last-child)
+{
+    padding-right:10px;
+}
+
+.mobile-header
+{
+    display:none;
+}
+
+
+
+.promo-video
+{
+    width:30%;
+    height:auto;
+}
+
+
+.container
+{
+    display:flex;
+
+}
+.products
+{
+    width:66%;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+.product > article
+{
+    float:left;
+    width:40%;
+}
+
+.product > figure
+{
+    float:right;
+}
+
+
+.product img
+{
+    width:50%;
+}
+
+
+.left-bar
+{
+    position:fixed;
+    right:0;
+    top:200px;
+    margin: 20px;
+
+    
+}
+
+
+.cookie-statement
+{
+    color:#fff;
+    background-color:#FA0;
+    opacity: 50%;
+    
+    position:fixed;
+    bottom: 0px;
+
+
+    
+}
+
+.mobile-list
+{
+    display: none;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1279px)
+{
+    .left-bar > aside
+    {
+        display:none;
+    }
+
+    .products
+    {
+        width:100%;
+        flex-direction: column-reverse;
+    }
+    
+
+    .mobile-list
+    {
+        display: block;
+        
+    }
+
+    
+    .product > article
+    {
+        float:right;
+        width:40%;
+    }
+
+    .product > figure
+    {
+        float:left;
+    }
+
+    .product figure
+    {
+        width:40%;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+
+    .left-bar > aside, .desktop-header
+    {
+        display:none;
+    }
+
+    .mobile-list, .mobile-header
+    {
+        display: block;
+        clear:both;
+    }
+
+    
+    .dropdown-menu .hamburger-section
+    {
+        display:none;
+        margin:0;
+        background-color:rgb(182, 182, 182);
+        width:100%;
+        height:100%;
+        position:fixed;
+        top:0;
+        right:0;
+       
+    }
+
+    .dropdown-menu img
+    {
+        width:50px;
+        height:auto;
+        float:right;
+        
+        
+    }
+
+    .dropdown-menu ul
+    {
+        list-style-type: none;
+        padding:0;
+        clear:both;
+        
+    }
+
+    .dropdown-menu li
+    {
+        text-align:center;
+        padding-bottom:50px;
+
+        font-size:20px;
+    }
+
+    .mobile-header input
+    {
+        display:none;
+    }
+
+    .mobile-header #hamburger-toggle:checked + .hamburger-section
+    {
+        display:block;
+    }
+
+    .products
+    {
+        width:100%;
+        flex-direction: column-reverse;
+    }
+    
+    .product > article
+    {
+        float:right;
+        width:40%;
+    }
+
+    .product > figure
+    {
+        float:left;
+        margin:20px;
+    }
+
+    .product figure
+    {
+        width:40%;
+    }
+
+
+}
