@@ -1,0 +1,5 @@
+Student name: Hicham El Ans
+Student number: 698917
+Student class: INF1B
+URL student GitHub website: http://hicham.github.io/
+URL student GitHun repository: https://github.com/Hicham/Hicham.github.io
