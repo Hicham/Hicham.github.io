@@ -9,10 +9,13 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
-        <header>
-            <img src="img/logo.svg" title="Logo" alt="Het logo van Hicham technologie">
-            <h1>Hicham technologie</h1>
-            <h2>Innovatie</h2>
+        <header class="header">
+            <section>
+                <img src="img/logo.svg" title="Logo" alt="Het logo van Hicham technologie">
+                <h1>Hicham technologie</h1>
+                <h2>Innovatie</h2>
+            </section>
+
             <nav class="desktop-header">
                 <ul>
                     <li>
@@ -27,7 +30,7 @@
                 </ul>
             </nav>
 
-            <nav class="mobile-header dropdown-menu">
+            <nav class="mobile-header hamburger-menu">
                 <label for="hamburger-toggle"><img src="img/hamburgermenu-icon.svg" title="hamburgermenu knop" alt="Knop om de hamburgermenu open te klappen"></label>
                 <input id="hamburger-toggle" type="checkbox">
 
@@ -47,10 +50,12 @@
                     </ul>
                 </section>
             </nav>
+
+            
         </header>
 
-        <section>
-            <ol class="mobile-list">
+        <section class="mobile-list">
+            <ol>
                 <li>Amsterdam</li>
                 <li>Rome</li>
                 <li>Parijs</li>
@@ -149,7 +154,7 @@
                 </section>
             </section>
         </section>
-        <section class="left-bar">
+        <section class="right-bar">
             <aside>
                 <ol>
                     <li>Amsterdam</li>
@@ -159,11 +164,9 @@
                     <li>New York</li>
                 </ol>
             </aside>
-            <section class="cookie-statement">Cookie Statement</section>
         </section>
-        <section>
-            <footer>&copy; 2022 Hicham el Ans</footer>
-        </section>
+        <section class="cookie-statement">Cookie Statement</section>
+        <footer>&copy; 2022 Hicham el Ans</footer>
     </body>
 </html>
 
