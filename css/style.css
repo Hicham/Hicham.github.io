@@ -216,10 +216,14 @@ legend::first-letter
     display:flex;
 }
 
+.pricing-container .left-container
+{
+    overflow-x: scroll;
+}
+
 .left-container
 {
     width:66%;
-    overflow-x: scroll;
 }
 
 .right-container
