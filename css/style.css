@@ -216,11 +216,10 @@ legend::first-letter
     display:flex;
 }
 
-
-
 .left-container
 {
     width:66%;
+    overflow-x: scroll;
 }
 
 .right-container
