@@ -543,5 +543,11 @@ legend::first-letter
         height:25px;
     }
 
+    input[type="submit"]
+    {
+        height:31px;
+        padding-left:10px;
+        padding-right:10px;
+    }
 
 }
